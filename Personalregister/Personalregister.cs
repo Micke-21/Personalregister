@@ -72,8 +72,12 @@ namespace Personalregister
                     Console.WriteLine("Salary not correct!");
                     res = false;
 
+                }
+                else
+                {
                     AddEmployee(name, salary);
                 }
+
             }
 
 
